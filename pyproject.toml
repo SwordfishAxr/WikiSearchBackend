@@ -1,0 +1,23 @@
+[project]
+name = "miniwiki"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Neltharion", email = "NtNeltharion@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "mwparserfromhell>=0.7.2",
+    "qdrant-client>=1.20.0",
+    "requests>=2.34.2",
+    "snowballstemmer>=3.1.1",
+    "tqdm>=4.70.1",
+]
+
+[project.scripts]
+miniwiki = "miniwiki:main"
+
+[build-system]
+requires = ["uv_build>=0.13.6,<0.14.0"]
+build-backend = "uv_build"
