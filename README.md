@@ -21,3 +21,11 @@ Alternatively, you can serve an HTTP api:
 ```
 uv run miniwiki serve
 ```
+
+# License
+```
+# Copyright 2026 Swordfish
+# SPDX-License-Identifier: 0BSD
+```
+
+Feel free to reuse
